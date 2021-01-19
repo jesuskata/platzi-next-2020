@@ -1,9 +1,13 @@
 // Dependencies
 import React from 'react';
 
+// Components
+import { NavBar } from '../../components/NavBar';
+
 const About = () => (
   <div>
-    Esta es la página de About
+    <NavBar />
+    <p>Esta es la página de About</p>
   </div>
 );
 

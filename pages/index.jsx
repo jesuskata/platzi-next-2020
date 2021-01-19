@@ -1,9 +1,13 @@
 // Dependencies
 import React from 'react';
 
+// Components
+import { NavBar } from '../components/NavBar';
+
 const Home = () => (
   <div>
-    <h1>Hello World!</h1>
+    <NavBar />
+    <p>Esta es la pàgina de Home</p>
   </div>
 );
 
