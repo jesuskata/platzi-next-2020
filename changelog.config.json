@@ -25,7 +25,9 @@
     ],
     "scopes": [
         "",
-        "init"
+        "changelog",
+        "init",
+        "api"
     ],
     "types": {
         "chore": {
