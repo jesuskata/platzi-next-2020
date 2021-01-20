@@ -27,7 +27,8 @@
         "",
         "changelog",
         "init",
-        "api"
+        "api",
+        "custom-nextjs"
     ],
     "types": {
         "chore": {
