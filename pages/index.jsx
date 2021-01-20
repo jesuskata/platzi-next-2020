@@ -1,9 +1,6 @@
 // Dependencies
 import React, { useState, useEffect } from 'react';
 
-// Components
-import { NavBar } from '../components/NavBar';
-
 const Home = () => {
   const [avoList, setAvoList] = useState([]);
 
@@ -17,7 +14,6 @@ const Home = () => {
 
   return (
     <div>
-      <NavBar />
       <p>Esta es la página de Home</p>
       {avoList.map(avo => (
         <div key={avo.id}>{avo.name}</div>
