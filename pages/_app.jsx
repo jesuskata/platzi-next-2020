@@ -1,11 +1,10 @@
-/* eslint-disable react/jsx-props-no-spreading */
 // Dependencies
 import React from 'react';
 import PropTypes from 'prop-types';
 import { AppProps } from 'next/app';
 
 // Components
-import { Layout } from '../components/Layout';
+import { Layout } from '@components/Layout';
 
 const MyApp = ({ Component, pageProps } = AppProps) => (
   <Layout>
