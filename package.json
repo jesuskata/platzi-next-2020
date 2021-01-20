@@ -85,7 +85,9 @@
             "react/require-default-props": "off",
             "react/jsx-filename-extension": "off",
             "class-methods-use-this": "off",
-            "no-multiple-empty-lines": "off"
+            "no-multiple-empty-lines": "off",
+            "import/no-unresolved": "off",
+            "react/jsx-props-no-spreading": "off"
         }
     }
 }
